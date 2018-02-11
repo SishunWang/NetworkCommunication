@@ -85,7 +85,7 @@ public class server {
                        }
                     }
                 }
-            else if (fields[0].equals("msubtract")){
+            else if (fields[0].equals("subtract")){
                     if(fields.length < 3) answer = -2;
                     else if (fields.length > 5) answer = -3;
                     else {
